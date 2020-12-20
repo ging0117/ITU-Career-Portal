@@ -1,0 +1,510 @@
+/* screen - recruitereventsubmit */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.recruitereventsubmit {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1247px;
+  min-width: 2204px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.recruitereventsubmit .add-new-event-12461-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 1627px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 81px;
+  width: 220px;
+}
+.recruitereventsubmit .as-one-of--oday-12434-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 521px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 734px;
+  width: 775px;
+}
+.recruitereventsubmit .button-C61RwL {
+  background-color: transparent;
+  height: 66px;
+  left: 1218px;
+  position: absolute;
+  top: 645px;
+  width: 183px;
+}
+.recruitereventsubmit .calendar-1-C61RwL {
+  background-color: transparent;
+  height: 44px;
+  left: 41px;
+  position: absolute;
+  top: 680px;
+  width: 42px;
+}
+.recruitereventsubmit .candidate-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 41px;
+  position: absolute;
+  top: 610px;
+  width: 34px;
+}
+.recruitereventsubmit .candidate-12443-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 613px;
+  width: 254px;
+}
+.recruitereventsubmit .contact-12446-ollB6F {
+  background-color: transparent;
+  height: auto;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 254px;
+}
+.recruitereventsubmit .contact-C61RwL {
+  background-color: transparent;
+  height: 27px;
+  left: 44px;
+  position: absolute;
+  top: 753px;
+  width: 299px;
+}
+.recruitereventsubmit .dec-8-2020--inc-12429-C61RwL {
+  background-color: transparent;
+  color: transparent;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 23px;
+  height: auto;
+  left: 520px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  width: 682px;
+}
+.recruitereventsubmit .editicon-C61RwL {
+  background-color: transparent;
+  height: 48px;
+  left: 1462px;
+  position: absolute;
+  top: 80px;
+  width: 35px;
+}
+.recruitereventsubmit .event-12458-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 91px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 688px;
+  width: 254px;
+}
+.recruitereventsubmit .head-of-re--inc-12452-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 305px;
+  width: 358px;
+}
+.recruitereventsubmit .icon-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 44px;
+  position: absolute;
+  top: 464px;
+  width: 27px;
+}
+.recruitereventsubmit .img501721-1-1-ollB6F {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 32px;
+}
+.recruitereventsubmit .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 531px;
+  width: 34px;
+}
+.recruitereventsubmit .jobicon-C61RwL {
+  background-color: var(--matisse-2);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 526px;
+  width: 47px;
+}
+.recruitereventsubmit .jobs-12442-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 538px;
+  width: 112px;
+}
+.recruitereventsubmit .join-12431-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1236px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 665px;
+  width: 148px;
+}
+.recruitereventsubmit .keywords-h-area-12433-C61RwL {
+  background-color: transparent;
+  color: rgba(91,87,87,1.0);
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 520px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 1006px;
+  width: 928px;
+}
+.recruitereventsubmit .lily-du-12451-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 260px;
+  width: 207px;
+}
+.recruitereventsubmit .log-out-12449-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 276px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1195px;
+  width: 254px;
+}
+.recruitereventsubmit .nav-C61RwL {
+  background-color: transparent;
+  height: 2341px;
+  left: -37px;
+  position: absolute;
+  top: -14px;
+  width: 397px;
+}
+.recruitereventsubmit .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.recruitereventsubmit .post-1-C61RwL {
+  background-color: transparent;
+  height: 33px;
+  left: 43px;
+  position: absolute;
+  top: 388px;
+  width: 31px;
+}
+.recruitereventsubmit .post-12441-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.recruitereventsubmit .post-C61RwL {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 1126px;
+  left: 443px;
+  position: absolute;
+  top: 69px;
+  width: 1077px;
+}
+.recruitereventsubmit .profile-12440-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 465px;
+  width: 112px;
+}
+.recruitereventsubmit .rectangle-20-C61RwL {
+  background-color: transparent;
+  height: 59px;
+  left: 1593px;
+  position: absolute;
+  top: 69px;
+  width: 303px;
+}
+.recruitereventsubmit .rectangle-26-C61RwL {
+  background-color: rgba(239,243,247,1.0);
+  border-radius: 12px;
+  height: 519px;
+  left: 499px;
+  position: absolute;
+  top: 461px;
+  width: 930px;
+}
+.recruitereventsubmit .san-jose-c-vent-12428-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 521px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 630px;
+  width: 356px;
+}
+.recruitereventsubmit .screen-sho--04-at-5-1-C61RwL {
+  background-color: transparent;
+  height: 208px;
+  left: 74px;
+  position: absolute;
+  top: 43px;
+  width: 208px;
+}
+.recruitereventsubmit .screen-sho--at-1138-1-C61RwL {
+  background-color: transparent;
+  height: 487px;
+  left: 500px;
+  position: absolute;
+  top: 128px;
+  width: 929px;
+}
+.recruitereventsubmit .som-C61RwL {
+  background-color: transparent;
+  height: 74px;
+  left: 1119px;
+  position: absolute;
+  top: 882px;
+  width: 310px;
+}
+.recruitereventsubmit .span1-NEJbhJ {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.recruitereventsubmit .span1-lBSmQ3 {
+  color: rgba(202,82,66,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+}
+.recruitereventsubmit .span2-NEJbhJ {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.30px;
+  line-height: 25px;
+}
+.recruitereventsubmit .span2-lBSmQ3 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+}
+.recruitereventsubmit .span3-lBSmQ3 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+}
+.recruitereventsubmit .span4-lBSmQ3 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.00px;
+}
+.recruitereventsubmit .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -769px;
+  width: 573px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2204, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/profilev1.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="profilev1" />
+    <div class="profilev1 anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <div class="post-C61RwL"></div>
+      <div class="about-i-am-ship-12606-C61RwL roboto-normal-black-23px border-class-1">
+        About&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />I am a software engineer. I am looking for Fall 2020 internship
+      </div>
+      <img class="editicon-C61RwL" src="img/edit-icon@2x.jpg" />
+      <div class="post-VMr6Om"></div>
+      <div class="position-12610-C61RwL roboto-normal-black-23px border-class-1">Position</div>
+      <img class="editicon-VMr6Om" src="img/edit-icon@2x.jpg" />
+      <div class="post-mzXdH9"></div>
+      <div class="resume-por-olio-12614-C61RwL roboto-normal-black-23px border-class-1">
+        Resume &amp;&nbsp;&nbsp;Portfolio
+      </div>
+      <div class="portfolio--owio-12615-C61RwL border-class-1">
+        <span class="span1-VAF51f">Portfolio Link:&nbsp;&nbsp;</span><span class="span2-VAF51f">&nbsp;</span
+        ><span class="span3-VAF51f">https://alexproject.webflow.io/</span>
+      </div>
+      <div class="resumepdf--load-12616-C61RwL border-class-1">
+        <span class="span1-xe25et">Resume.pdf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+        ><span class="span2-xe25et">Download</span>
+      </div>
+      <img class="editicon-mzXdH9" src="img/edit-icon@2x.jpg" />
+      <div class="post-QxM5SU"></div>
+      <img class="experience-C61RwL" src="img/experience@1x.jpg" />
+      <div class="experience-12621-C61RwL roboto-normal-black-23px border-class-1">Experience</div>
+      <img class="editicon-QxM5SU" src="img/edit-icon@2x.jpg" />
+      <div class="post-2P4qUJ"></div>
+      <div class="education-12625-C61RwL roboto-normal-black-23px border-class-1">Education</div>
+      <img class="editicon-2P4qUJ" src="img/edit-icon@2x.jpg" />
+      <img class="screen-sho--at-1051-1-C61RwL" src="img/screen-shot-2020-11-04-at-10-51-1@1x.jpg" />
+      <div class="post-qr8e7q"></div>
+      <div class="portfolio-12630-C61RwL roboto-normal-black-23px border-class-1">Portfolio</div>
+      <img class="editicon-qr8e7q" src="img/edit-icon@2x.jpg" />
+      <img class="screen-sho--at-1110-1-C61RwL" src="img/screen-shot-2020-11-04-at-11-10-1@1x.jpg" />
+      <div class="post-J1YQmd"></div>
+      <div class="skills-12635-C61RwL roboto-normal-black-23px border-class-1">Skills</div>
+      <div class="rectangle-13-C61RwL"></div>
+      <div class="java-12638-C61RwL border-class-1">Java</div>
+      <div class="rectangle-13-VMr6Om"></div>
+      <div class="python-12641-C61RwL border-class-1">Python</div>
+      <div class="rectangle-13-mzXdH9"></div>
+      <div class="react-12644-C61RwL border-class-1">React</div>
+      <div class="rectangle-13-QxM5SU"></div>
+      <div class="sql-12647-C61RwL border-class-1">SQL</div>
+      <div class="rectangle-13-2P4qUJ"></div>
+      <div class="neo4j-12650-C61RwL border-class-1">Neo4j</div>
+      <img class="editicon-J1YQmd" src="img/edit-icon@2x.jpg" />
+      <div class="post-a5WPlX"></div>
+      <div class="language-12654-C61RwL roboto-normal-black-23px border-class-1">Language</div>
+      <div class="english-sp-nish-12655-C61RwL roboto-normal-black-23px border-class-1">
+        English,&nbsp;&nbsp;Spanish
+      </div>
+      <img class="editicon-a5WPlX" src="img/edit-icon@2x.jpg" />
+      <div class="post-HlKRTo"></div>
+      <div class="recommenda-ions-12659-C61RwL roboto-normal-black-23px border-class-1">Recommendations</div>
+      <img class="editicon-HlKRTo" src="img/edit-icon@2x.jpg" />
+      <img class="nav-C61RwL" src="img/nav-9@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <div class="home-12665-C61RwL roboto-normal-white-23px border-class-1">Home</div>
+      <div class="profile-12666-C61RwL border-class-1">Profile</div>
+      <a href="jobboard.html"><div class="jobs-12667-C61RwL roboto-normal-white-23px border-class-1">Jobs</div></a>
+      <a href="recommended-jobs.html"
+        ><div class="recommende-jobs-12668-C61RwL roboto-normal-white-23px border-class-1">Recommended Jobs</div></a
+      >
+      <a href="event.html"><div class="event-12669-C61RwL roboto-normal-white-23px border-class-1">Event</div></a>
+      <a href="contactmainpage.html"
+        ><div class="contact-12670-C61RwL roboto-normal-white-23px border-class-1">Contact</div></a
+      >
+      <img class="icon-C61RwL" src="img/icon@2x.png" />
+      <div class="jobicon-C61RwL"></div>
+      <div class="jobicon-VMr6Om"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <img class="star-1-C61RwL" src="img/star-1@2x.png" />
+      <div class="log-out-12676-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <img class="intersect-C61RwL" src="img/intersect@2x.png" />
+      <div class="alex-smith-12681-C61RwL roboto-bold-white-35px border-class-1">Alex Smith</div>
+      <div class="software-e-ence-12682-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-ykUSp7">Software Engineer<br /></span
+        ><span class="span2-ykUSp7">&nbsp;&nbsp; ITU 2019 Computer Science</span>
+      </div>
+      <div class="tag-C61RwL"></div>
+      <div class="software-e-neer-12685-C61RwL border-class-1">Software Engineer</div>
+      <div class="tag-VMr6Om"></div>
+      <div class="web-developer-12688-C61RwL border-class-1">Web Developer</div>
+      <div class="tag-mzXdH9"></div>
+      <div class="data-scientist-12691-C61RwL border-class-1">Data Scientist</div>
+      <div class="tag-QxM5SU"></div>
+      <div class="internship-12694-C61RwL border-class-1">Internship</div>
+      <div class="tag-2P4qUJ"></div>
+      <div class="california-12697-C61RwL border-class-1">California</div>
+      <div class="tag-qr8e7q"></div>
+      <div class="x1-2-years--ence-12700-C61RwL border-class-1">1-2 years experience</div>
+      <div class="recruiter-C61RwL"></div>
+      <div class="recruiter--ions-12703-C61RwL roboto-normal-black-23px border-class-1">
+        Recruiter with similar positions
+      </div>
+      <img class="screen-sho--at-1219-1-C61RwL" src="img/screen-shot-2020-11-04-at-12-19-1@2x.jpg" />
+      <div class="recruiter-VMr6Om"></div>
+      <div class="people-sim--you-12707-C61RwL roboto-normal-black-23px border-class-1">People similar to you</div>
+      <img class="screen-sho--at-1223-1-C61RwL" src="img/screen-shot-2020-11-04-at-12-23-1@2x.jpg" />
+      <div class="white-bar-C61RwL"></div>
+      <div class="white-bar-VMr6Om"></div>
+      <div class="white-bar-mzXdH9"></div>
+      <div class="itu-2019-cs-12712-C61RwL border-class-1">ITU 2019 CS</div>
+      <div class="itu-2017-cs-12713-C61RwL border-class-1">ITU 2017 CS</div>
+      <div class="itu-2015-cs-12714-C61RwL border-class-1">ITU 2015 CS</div>
+      <img class="screen-sho--at-1206-1-C61RwL" src="img/screen-shot-2020-12-03-at-12-06-1@2x.jpg" />
+      <div class="i-cannot-t-ound-12716-C61RwL border-class-1">
+        I cannot think of a stronger Intelligence professional to be leading Second Radio battalion at this time. Alex
+        is innovative and relentless and these qualities coupled with his solid technical expertise and dynamic
+        leadership make it a certainty that Alex will tread new and exciting ground.
+      </div>
+      <div class="rectangle-12-C61RwL"></div>
+      <div class="contact-12719-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-VMr6Om"></div>
+      <div class="contact-12722-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-mzXdH9"></div>
+      <div class="contact-12725-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-QxM5SU"></div>
+      <div class="contact-12728-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-2P4qUJ"></div>
+      <div class="contact-12731-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-qr8e7q"></div>
+      <div class="contact-12734-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-J1YQmd"></div>
+      <div class="contact-12737-C61RwL border-class-1">Contact</div>
+      <div class="rectangle-12-a5WPlX"></div>
+      <div class="contact-12740-C61RwL border-class-1">Contact</div>
+    </div>
+  </body>
+</html>

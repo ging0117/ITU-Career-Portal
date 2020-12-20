@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2204, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/profile.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="profile" />
+    <div class="profile anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <img class="nav-C61RwL" src="img/nav-3@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <a href="home.html"><div class="home-12213-C61RwL roboto-normal-white-23px border-class-1">Home</div></a>
+      <a href="profilev1.html"><div class="profile-12214-C61RwL border-class-1">Profile</div></a>
+      <a href="jobboard.html"><div class="jobs-12215-C61RwL roboto-normal-white-23px border-class-1">Jobs</div></a>
+      <a href="recommended-jobs.html"
+        ><div class="recommende-jobs-12216-C61RwL roboto-normal-white-23px border-class-1">Recommended Jobs</div></a
+      >
+      <a href="event.html"><div class="event-12217-C61RwL roboto-normal-white-23px border-class-1">Event</div></a>
+      <a href="contactmainpage.html"
+        ><div class="contact-12218-C61RwL roboto-normal-white-23px border-class-1">Contact</div></a
+      >
+      <img class="icon-C61RwL" src="img/icon@2x.png" />
+      <div class="jobicon-C61RwL"></div>
+      <div class="jobicon-VMr6Om"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <img class="star-1-C61RwL" src="img/star-1@2x.png" />
+      <div class="log-out-12224-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <img class="intersect-C61RwL" src="img/intersect@2x.png" />
+      <div class="alex-smith-12229-C61RwL roboto-bold-white-35px border-class-1">Alex Smith</div>
+      <div class="software-e-ence-12230-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-4rk3CX">Software Engineer<br /></span
+        ><span class="span2-4rk3CX">&nbsp;&nbsp; ITU 2019 Computer Science</span>
+      </div>
+      <div class="recruiter-C61RwL"></div>
+      <div class="recruiter--ions-12233-C61RwL roboto-normal-black-23px border-class-1">
+        Recruiter with similar positions
+      </div>
+      <div class="recruiter-VMr6Om"></div>
+      <div class="people-sim--you-12236-C61RwL roboto-normal-black-23px border-class-1">People similar to you</div>
+      <a href="profilev1.html">
+        <div class="profile-fill-out-C61RwL">
+          <div class="about-4jCewv">
+            <div class="about-intr-tive-12240-i0QqEA border-class-1">
+              <span class="span1-b0If8f">About&nbsp;&nbsp;&nbsp;&nbsp;<br /><br /></span
+              ><span class="span2-b0If8f">Introduce yourself, your objective...</span>
+            </div>
+            <img class="editicon-i0QqEA" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="about-5jFAPL">
+            <img class="editicon-4rZgTq" src="img/edit-icon@2x.jpg" />
+            <div class="position-12245-4rZgTq roboto-normal-black-23px border-class-1">Position</div>
+          </div>
+          <div class="about-ZRbu3t">
+            <div class="resume-por-olio-12248-21Zk4g roboto-normal-black-23px border-class-1">
+              Resume &amp;&nbsp;&nbsp;Portfolio
+            </div>
+            <img class="editicon-21Zk4g" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="experience-4jCewv">
+            <div class="experience-12252-TcI1Jx roboto-normal-black-23px border-class-1">Experience</div>
+            <img class="editicon-TcI1Jx" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="education-4jCewv">
+            <div class="education-12256-0widvH roboto-normal-black-23px border-class-1">Education</div>
+            <img class="editicon-0widvH" src="img/edit-icon@2x.jpg" />
+            <div class="education--ards-12258-0widvH border-class-1">
+              Education experience, certificate and rewards...
+            </div>
+          </div>
+          <div class="project-4jCewv">
+            <div class="portfolio-12261-swbLFL roboto-normal-black-23px border-class-1">Portfolio</div>
+            <img class="editicon-swbLFL" src="img/edit-icon@2x.jpg" />
+            <div class="enter-your-ject-12263-swbLFL border-class-1">Enter your project...</div>
+          </div>
+          <div class="skills-4jCewv">
+            <div class="skills-12266-nR8dcO roboto-normal-black-23px border-class-1">Skills</div>
+            <img class="editicon-nR8dcO" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="language-4jCewv">
+            <div class="add-recomm-nals-12270-j7K1iz border-class-1">Add recommendation from professionals...</div>
+            <div class="recommenda-ions-12271-j7K1iz roboto-normal-black-23px border-class-1">Recommendations</div>
+            <img class="editicon-j7K1iz" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="language-5jFAPL">
+            <div class="language-12275-yQ8EnW roboto-normal-black-23px border-class-1">Language</div>
+            <img class="editicon-yQ8EnW" src="img/edit-icon@2x.jpg" />
+          </div>
+          <div class="select-you-tion-12277-4jCewv border-class-1">Select your position type, location...</div>
+          <div class="upload-you-edin-12278-4jCewv border-class-1">Upload your resume and portfolio, linkedin</div>
+          <div class="working-ex-ence-12279-4jCewv border-class-1">Working experience...</div>
+        </div></a
+      >
+    </div>
+  </body>
+</html>

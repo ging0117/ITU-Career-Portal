@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/event.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="event" />
+    <div class="event anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <img class="nav-C61RwL" src="img/nav-2@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <a href="home.html"><div class="home-12823-C61RwL roboto-normal-white-23px border-class-1">Home</div></a>
+      <a href="profilev1.html"
+        ><div class="profile-12824-C61RwL roboto-normal-white-23px border-class-1">Profile</div></a
+      >
+      <a href="jobboard.html"><div class="jobs-12825-C61RwL roboto-normal-white-23px border-class-1">Jobs</div></a>
+      <a href="recommended-jobs.html"
+        ><div class="recommende-jobs-12826-C61RwL roboto-normal-white-23px border-class-1">Recommended Jobs</div></a
+      >
+      <div class="event-12827-C61RwL border-class-1">Event</div>
+      <a href="contactmainpage.html"
+        ><div class="contact-12828-C61RwL roboto-normal-white-23px border-class-1">Contact</div></a
+      >
+      <img class="icon-C61RwL" src="img/icon@2x.png" />
+      <div class="jobicon-C61RwL"></div>
+      <div class="jobicon-VMr6Om"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <img class="star-1-C61RwL" src="img/star-1@2x.png" />
+      <img class="intersect-C61RwL" src="img/intersect@2x.png" />
+      <div class="alex-smith-12838-C61RwL roboto-bold-white-35px border-class-1">Alex Smith</div>
+      <div class="software-e-ence-12839-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-W40LiC">Software Engineer<br /></span
+        ><span class="span2-W40LiC">ITU 2019 Computer Science</span>
+      </div>
+      <div class="log-out-12840-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <div class="post-C61RwL"></div>
+      <div class="rectangle-26-C61RwL"></div>
+      <img class="screen-sho--at-1138-1-C61RwL" src="img/screen-shot-2020-12-02-at-11-38-1@1x.jpg" />
+      <div class="san-jose-c-vent-12846-C61RwL border-class-1">San Jose, CA Job Hiring Event!</div>
+      <div class="dec-8-2020--inc-12847-C61RwL border-class-1">
+        <span class="span1-XIwl3C">Dec 8, 2020</span><span class="span2-XIwl3C">&nbsp;&nbsp;</span
+        ><span class="span3-XIwl3C">10AM - 12PM&nbsp;&nbsp; </span
+        ><span class="span4-XIwl3C">By Lily Du&nbsp;&nbsp;Head of Recruiting Reddit, Inc</span>
+      </div>
+      <div class="button-C61RwL"></div>
+      <div class="join-12849-C61RwL border-class-1">Join</div>
+      <img class="social-media-C61RwL" src="img/social-media@2x.png" />
+      <div class="as-one-of--oday-12851-C61RwL border-class-1">
+        As one of the largest financial institutions in the world, our client has been around for over 150 years and is
+        continuously innovating in today&#39;s digital age. If you want to work for a company that is not only a
+        household name, but also truly cares about satisfying customers&#39; financial needs and helping people succeed
+        financially, apply today.
+      </div>
+      <div class="upcoming-e--you-12852-C61RwL roboto-normal-black-30px border-class-1">Upcoming Events For You</div>
+      <div class="events-12853-C61RwL roboto-normal-black-30px border-class-1">Events</div>
+      <div class="post-VMr6Om"></div>
+      <img class="image-C61RwL" src="img/image@2x.jpg" />
+      <div class="san-jose-c-vent-12857-C61RwL border-class-1">San Jose, CA Job Hiring Event!</div>
+      <div class="text-12858-C61RwL border-class-1">
+        <span class="span1-xHyxix">Dec 8, 2020</span><span class="span2-xHyxix">&nbsp;&nbsp;</span>
+      </div>
+      <div class="post-mzXdH9"></div>
+      <div class="san-franci-vent-12861-C61RwL border-class-1">San Francisco, CA Job Hiring Event!</div>
+      <div class="text-12862-C61RwL border-class-1">
+        <span class="span1-f8GEoj">Dec 1, 2020</span><span class="span2-f8GEoj">&nbsp;&nbsp;</span>
+      </div>
+      <img class="screen-sho-3-at-142-1-C61RwL" src="img/screen-shot-2020-12-03-at-1-42-1@2x.jpg" />
+      <div class="post-QxM5SU"></div>
+      <div class="bay-area-j-vent-12866-C61RwL border-class-1">Bay Area Job Hiring Event!</div>
+      <div class="text-12867-C61RwL border-class-1">
+        <span class="span1-4KDBqR">Nov 30, 2020</span><span class="span2-4KDBqR">&nbsp;&nbsp;</span>
+      </div>
+      <img class="screen-sho-3-at-145-1-C61RwL" src="img/screen-shot-2020-12-03-at-1-45-1@2x.jpg" />
+      <div class="post-2P4qUJ"></div>
+      <div class="bay-area-j-vent-12871-C61RwL border-class-1">Bay Area Job Hiring Event!</div>
+      <div class="text-12872-C61RwL border-class-1">
+        <span class="span1-C0k59Z">Nov 30, 2020</span><span class="span2-C0k59Z">&nbsp;&nbsp;</span>
+      </div>
+      <img class="screen-sho-3-at-147-1-C61RwL" src="img/screen-shot-2020-12-03-at-1-47-1@2x.jpg" />
+    </div>
+  </body>
+</html>

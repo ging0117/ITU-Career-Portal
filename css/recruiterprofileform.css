@@ -1,0 +1,695 @@
+/* screen - recruiterprofileform */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.recruiterprofileform {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 2327px;
+  min-width: 2204px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.recruiterprofileform .button-C61RwL {
+  background-color: transparent;
+  height: 73px;
+  left: 1430px;
+  position: absolute;
+  top: 2191px;
+  width: 202px;
+}
+.recruiterprofileform .button-VMr6Om {
+  background-color: transparent;
+  height: 73px;
+  left: 1194px;
+  position: absolute;
+  top: 2191px;
+  width: 202px;
+}
+.recruiterprofileform .calendar-1-CfPDGH {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+.recruiterprofileform .cancel-12353-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1227px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2209px;
+  width: 132px;
+}
+.recruiterprofileform .candidate-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 41px;
+  position: absolute;
+  top: 610px;
+  width: 34px;
+}
+.recruiterprofileform .candidate-12335-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 613px;
+  width: 254px;
+}
+.recruiterprofileform .company-na-logo-12289-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 72px;
+  width: 301px;
+}
+.recruiterprofileform .company-we-edin-12313-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1292px;
+  width: 496px;
+}
+.recruiterprofileform .contact-12338-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 753px;
+  width: 254px;
+}
+.recruiterprofileform .contact-in-tion-12321-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1832px;
+  width: 496px;
+}
+.recruiterprofileform .editicon-2P4qUJ {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 739px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-C61RwL {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 64px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-HlKRTo {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 1468px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-J1YQmd {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 1115px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-QxM5SU {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 549px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-VMr6Om {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 224px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-VkPPtx {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 1833px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-YWzA7M {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 1998px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-a5WPlX {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 1293px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-mzXdH9 {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 389px;
+  width: 44px;
+}
+.recruiterprofileform .editicon-qr8e7q {
+  background-color: transparent;
+  height: 38px;
+  left: 1567px;
+  position: absolute;
+  top: 926px;
+  width: 44px;
+}
+.recruiterprofileform .event-12356-CfPDGH {
+  background-color: transparent;
+  height: auto;
+  left: 50px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  width: 254px;
+}
+.recruiterprofileform .event-C61RwL {
+  background-color: transparent;
+  height: 44px;
+  left: 41px;
+  position: absolute;
+  top: 680px;
+  width: 304px;
+}
+.recruiterprofileform .head-of-re--inc-12344-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 305px;
+  width: 358px;
+}
+.recruiterprofileform .how-many-h-hire-12297-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 557px;
+  width: 392px;
+}
+.recruiterprofileform .icon-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 44px;
+  position: absolute;
+  top: 464px;
+  width: 27px;
+}
+.recruiterprofileform .img501721-1-1-C61RwL {
+  background-color: transparent;
+  height: 23px;
+  left: 44px;
+  position: absolute;
+  top: 755px;
+  width: 32px;
+}
+.recruiterprofileform .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 531px;
+  width: 34px;
+}
+.recruiterprofileform .job-descri-tion-12317-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1467px;
+  width: 496px;
+}
+.recruiterprofileform .job-title--only-12290-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 235px;
+  width: 845px;
+}
+.recruiterprofileform .jobicon-C61RwL {
+  background-color: var(--matisse-2);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 526px;
+  width: 47px;
+}
+.recruiterprofileform .jobs-12334-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 538px;
+  width: 112px;
+}
+.recruiterprofileform .lily-du-12343-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 260px;
+  width: 207px;
+}
+.recruiterprofileform .location-r-mote-12293-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 397px;
+  width: 275px;
+}
+.recruiterprofileform .log-out-12341-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2280px;
+  width: 254px;
+}
+.recruiterprofileform .nav-C61RwL {
+  background-color: transparent;
+  height: 2341px;
+  left: -37px;
+  position: absolute;
+  top: -14px;
+  width: 397px;
+}
+.recruiterprofileform .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.recruiterprofileform .pay-range--fits-12301-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 747px;
+  width: 544px;
+}
+.recruiterprofileform .post-1-C61RwL {
+  background-color: transparent;
+  height: 33px;
+  left: 43px;
+  position: absolute;
+  top: 388px;
+  width: 31px;
+}
+.recruiterprofileform .post-12333-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.recruiterprofileform .post-2P4qUJ {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 128px;
+  left: 455px;
+  position: absolute;
+  top: 730px;
+  width: 1177px;
+}
+.recruiterprofileform .post-C61RwL {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 121px;
+  left: 455px;
+  position: absolute;
+  top: 55px;
+  width: 1177px;
+}
+.recruiterprofileform .post-HlKRTo {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 313px;
+  left: 455px;
+  position: absolute;
+  top: 1455px;
+  width: 1177px;
+}
+.recruiterprofileform .post-J1YQmd {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 116px;
+  left: 455px;
+  position: absolute;
+  top: 1102px;
+  width: 1177px;
+}
+.recruiterprofileform .post-QxM5SU {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 131px;
+  left: 455px;
+  position: absolute;
+  top: 540px;
+  width: 1177px;
+}
+.recruiterprofileform .post-VMr6Om {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 121px;
+  left: 455px;
+  position: absolute;
+  top: 215px;
+  width: 1177px;
+}
+.recruiterprofileform .post-VkPPtx {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 103px;
+  left: 455px;
+  position: absolute;
+  top: 1820px;
+  width: 1177px;
+}
+.recruiterprofileform .post-YWzA7M {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 103px;
+  left: 455px;
+  position: absolute;
+  top: 1985px;
+  width: 1177px;
+}
+.recruiterprofileform .post-a5WPlX {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 116px;
+  left: 455px;
+  position: absolute;
+  top: 1280px;
+  width: 1177px;
+}
+.recruiterprofileform .post-mzXdH9 {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 121px;
+  left: 455px;
+  position: absolute;
+  top: 380px;
+  width: 1177px;
+}
+.recruiterprofileform .post-qr8e7q {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 129px;
+  left: 455px;
+  position: absolute;
+  top: 917px;
+  width: 1177px;
+}
+.recruiterprofileform .profile-12332-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 465px;
+  width: 112px;
+}
+.recruiterprofileform .questions--ates-12325-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1997px;
+  width: 496px;
+}
+.recruiterprofileform .schedule-o--job-12305-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 934px;
+  width: 296px;
+}
+.recruiterprofileform .screen-sho--04-at-5-1-C61RwL {
+  background-color: transparent;
+  height: 208px;
+  left: 74px;
+  position: absolute;
+  top: 43px;
+  width: 208px;
+}
+.recruiterprofileform .span1-TsfTEe {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.recruiterprofileform .span2-TsfTEe {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.30px;
+  line-height: 25px;
+}
+.recruiterprofileform .sponsorshi--job-12309-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 491px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1114px;
+  width: 352px;
+}
+.recruiterprofileform .submit-12350-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1463px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2209px;
+  width: 132px;
+}
+.recruiterprofileform .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -769px;
+  width: 573px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

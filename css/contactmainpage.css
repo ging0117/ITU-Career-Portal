@@ -1,0 +1,804 @@
+/* screen - contactmainpage */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.contactmainpage {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 2321px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.contactmainpage .alex-smith-12896-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 262px;
+  width: 207px;
+}
+.contactmainpage .alex-smith-neer-12940-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 22px;
+  height: auto;
+  left: 966px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 43px;
+  width: 407px;
+}
+.contactmainpage .auto-reply-12946-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 2225px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  width: 57px;
+}
+.contactmainpage .contact-12886-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 763px;
+  width: 254px;
+}
+.contactmainpage .contact-12902-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  width: 191px;
+}
+.contactmainpage .dec-3-10-am-12932-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1538px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  top: 94px;
+  white-space: nowrap;
+  width: 201px;
+}
+.contactmainpage .editicon-C61RwL {
+  background-color: transparent;
+  height: 40px;
+  left: 846px;
+  position: absolute;
+  top: 55px;
+  width: 47px;
+}
+.contactmainpage .editicon-VMr6Om {
+  background-color: transparent;
+  height: 30px;
+  left: 1461px;
+  position: absolute;
+  top: 153px;
+  width: 35px;
+}
+.contactmainpage .editicon-mzXdH9 {
+  background-color: transparent;
+  height: 30px;
+  left: 1461px;
+  position: absolute;
+  top: 704px;
+  width: 35px;
+}
+.contactmainpage .ellipse-10-C61RwL {
+  background-color: transparent;
+  height: 0px;
+  left: 92.79%;
+  position: absolute;
+  top: 5.92%;
+  width: 0px;
+}
+.contactmainpage .ellipse-11-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1934px;
+  position: absolute;
+  top: 39px;
+  width: 5px;
+}
+.contactmainpage .ellipse-3-C61RwL {
+  background-color: transparent;
+  height: 14px;
+  left: 2252px;
+  position: absolute;
+  top: 47px;
+  width: 14px;
+}
+.contactmainpage .event-12885-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 691px;
+  width: 254px;
+}
+.contactmainpage .faq-12974-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 2122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  width: 49px;
+}
+.contactmainpage .fileattach-05027615-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 990px;
+  position: absolute;
+  top: 1034px;
+  width: 29px;
+}
+.contactmainpage .group-6-x5SWxw {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 49px;
+}
+.contactmainpage .hi-alex-i--view-12928-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1558px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 303px;
+  width: 531px;
+}
+.contactmainpage .hi-jenna-t-nity-12924-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1106px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 734px;
+  width: 357px;
+}
+.contactmainpage .hi-my-name-enna-12916-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1106px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: 282px;
+}
+.contactmainpage .home-12881-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.contactmainpage .icon-C61RwL {
+  background-color: transparent;
+  height: 435px;
+  left: 34px;
+  position: absolute;
+  top: 385px;
+  width: 45px;
+}
+.contactmainpage .image-1-C61RwL {
+  background-color: transparent;
+  height: 24px;
+  left: 947px;
+  position: absolute;
+  top: 1038px;
+  width: 30px;
+}
+.contactmainpage .intersect-C61RwL {
+  background-color: transparent;
+  height: 173px;
+  left: 96px;
+  position: absolute;
+  top: 63px;
+  width: 173px;
+}
+.contactmainpage .jenna-C61RwL {
+  background-color: transparent;
+  height: 99px;
+  left: 2138px;
+  position: absolute;
+  top: 270px;
+  width: 99px;
+}
+.contactmainpage .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 533px;
+  width: 34px;
+}
+.contactmainpage .jobicon-C61RwL {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 528px;
+  width: 47px;
+}
+.contactmainpage .jobicon-VMr6Om {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 606px;
+  width: 47px;
+}
+.contactmainpage .jobs-12883-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  width: 112px;
+}
+.contactmainpage .line-2-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 926px;
+  position: absolute;
+  top: 894px;
+  width: 1395px;
+}
+.contactmainpage .line-3-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 924px;
+  position: absolute;
+  top: 130px;
+  width: 1397px;
+}
+.contactmainpage .log-out-12898-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 254px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1042px;
+  width: 254px;
+}
+.contactmainpage .nav-C61RwL {
+  background-color: transparent;
+  height: 1674px;
+  left: -37px;
+  position: absolute;
+  top: -10px;
+  width: 397px;
+}
+.contactmainpage .notification-12952-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1898px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 81px;
+  width: 67px;
+}
+.contactmainpage .p1icon-C61RwL {
+  background-color: transparent;
+  height: 99px;
+  left: 963px;
+  position: absolute;
+  top: 147px;
+  width: 99px;
+}
+.contactmainpage .p1icon-VMr6Om {
+  background-color: transparent;
+  height: 99px;
+  left: 963px;
+  position: absolute;
+  top: 698px;
+  width: 99px;
+}
+.contactmainpage .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.contactmainpage .profile-12882-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 467px;
+  width: 112px;
+}
+.contactmainpage .recommende-jobs-12884-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 615px;
+  width: 254px;
+}
+.contactmainpage .rectangle-12-C61RwL {
+  background-color: transparent;
+  height: 52px;
+  left: 2117px;
+  position: absolute;
+  top: 1009px;
+  width: 140px;
+}
+.contactmainpage .rectangle-28-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 112px;
+  left: 1084px;
+  position: absolute;
+  top: 147px;
+  width: 421px;
+}
+.contactmainpage .rectangle-28-VMr6Om {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 141px;
+  left: 1084px;
+  position: absolute;
+  top: 698px;
+  width: 421px;
+}
+.contactmainpage .rectangle-28-mzXdH9 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 418px;
+  left: 1525px;
+  position: absolute;
+  top: 270px;
+  width: 582px;
+}
+.contactmainpage .rectangle-29-C61RwL {
+  background-color: rgba(125,125,125,1.0);
+  border-radius: 13.4px;
+  height: 7px;
+  left: 2237px;
+  position: absolute;
+  top: 50px;
+  width: 31px;
+}
+.contactmainpage .screen-sho--at-1044-1-C61RwL {
+  background-color: transparent;
+  height: 911px;
+  left: 367px;
+  position: absolute;
+  top: 193px;
+  width: 569px;
+}
+.contactmainpage .search-bar-C61RwL {
+  background-color: var(--gallery);
+  border-radius: 10px;
+  box-shadow: 0px 2.32794451713562px 11.639721870422363px rgba(0,0,0,0.1);;
+  height: 56px;
+  left: 395px;
+  position: absolute;
+  top: 131px;
+  width: 503px;
+}
+.contactmainpage .search-icon-C61RwL {
+  background-color: transparent;
+  height: 31px;
+  left: 846px;
+  position: absolute;
+  top: 145px;
+  width: 30px;
+}
+.contactmainpage .search-message-12906-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 414px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  width: 252px;
+}
+.contactmainpage .send-12939-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2117px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1021px;
+  width: 144px;
+}
+.contactmainpage .sidebar-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px rgba(0,0,0,0.1);;
+  height: 1065px;
+  left: 380px;
+  position: absolute;
+  top: 24px;
+  width: 543px;
+}
+.contactmainpage .software-e-ence-12897-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 307px;
+  width: 358px;
+}
+.contactmainpage .span1-LwRZdk {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contactmainpage .span1-Pbc6Fy {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+}
+.contactmainpage .span2-LwRZdk {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.50px;
+  line-height: 25px;
+}
+.contactmainpage .span2-Pbc6Fy {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.00px;
+}
+.contactmainpage .star-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 41px;
+  position: absolute;
+  top: 612px;
+  width: 30px;
+}
+.contactmainpage .subtract-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1918px;
+  position: absolute;
+  top: 67px;
+  width: 10px;
+}
+.contactmainpage .summary-12965-njXdbs {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 49px;
+}
+.contactmainpage .summary-C61RwL {
+  background-color: transparent;
+  height: 60px;
+  left: 2019px;
+  position: absolute;
+  top: 36px;
+  width: 47px;
+}
+.contactmainpage .summary-We5Zte {
+  background-color: transparent;
+  height: 37px;
+  left: 5px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.contactmainpage .summary-vVHfqG {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 47px;
+}
+.contactmainpage .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -765px;
+  width: 573px;
+}
+.contactmainpage .union-8YHHpE {
+  background-color: transparent;
+  height: 20px;
+  left: 19px;
+  position: absolute;
+  top: 14px;
+  width: 18px;
+}
+.contactmainpage .union-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1905px;
+  position: absolute;
+  top: 33px;
+  width: 37px;
+}
+.contactmainpage .union-rcQi9P {
+  background-color: transparent;
+  height: 37px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.contactmainpage .vector-2P4qUJ {
+  background-color: transparent;
+  height: 0px;
+  left: 92.80%;
+  position: absolute;
+  top: 5.89%;
+  width: 0px;
+}
+.contactmainpage .vector-7-C61RwL {
+  background-color: transparent;
+  height: 2.92%;
+  left: 91.55%;
+  position: absolute;
+  top: 3.61%;
+  width: 1.62%;
+}
+.contactmainpage .vector-8-rcQi9P {
+  background-color: transparent;
+  height: 10px;
+  left: 23px;
+  position: absolute;
+  top: 18px;
+  width: 9px;
+}
+.contactmainpage .vector-C61RwL {
+  background-color: transparent;
+  height: 2.78%;
+  left: 91.56%;
+  position: absolute;
+  top: 3.69%;
+  width: 1.59%;
+}
+.contactmainpage .vector-QxM5SU {
+  background-color: transparent;
+  height: 1.44%;
+  left: 92.54%;
+  position: absolute;
+  top: 4.19%;
+  width: 0.32%;
+}
+.contactmainpage .vector-VMr6Om {
+  background-color: transparent;
+  height: 1.25%;
+  left: 91.86%;
+  position: absolute;
+  top: 4.20%;
+  width: 0.32%;
+}
+.contactmainpage .vector-mzXdH9 {
+  background-color: transparent;
+  height: 1.30%;
+  left: 92.11%;
+  position: absolute;
+  top: 4.17%;
+  width: 0.39%;
+}
+.contactmainpage .write-a-me-sage-12933-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 947px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 909px;
+  white-space: nowrap;
+  width: 216px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

@@ -1,0 +1,854 @@
+/* screen - recruitermainpage */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.recruitermainpage {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 2321px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.recruitermainpage .auto-reply-13062-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 2226px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 57px;
+}
+.recruitermainpage .calendar-1-CfPDGH {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+.recruitermainpage .candidate-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 52px;
+  position: absolute;
+  top: 617px;
+  width: 34px;
+}
+.recruitermainpage .candidate-13031-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 620px;
+  width: 254px;
+}
+.recruitermainpage .contact-12988-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  width: 191px;
+}
+.recruitermainpage .contact-13034-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 100px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 760px;
+  width: 254px;
+}
+.recruitermainpage .dec-3-10-am-13013-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1538px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  top: 94px;
+  white-space: nowrap;
+  width: 201px;
+}
+.recruitermainpage .editicon-C61RwL {
+  background-color: transparent;
+  height: 40px;
+  left: 846px;
+  position: absolute;
+  top: 55px;
+  width: 47px;
+}
+.recruitermainpage .editicon-VMr6Om {
+  background-color: transparent;
+  height: 30px;
+  left: 1461px;
+  position: absolute;
+  top: 153px;
+  width: 35px;
+}
+.recruitermainpage .editicon-mzXdH9 {
+  background-color: transparent;
+  height: 30px;
+  left: 1461px;
+  position: absolute;
+  top: 576px;
+  width: 35px;
+}
+.recruitermainpage .ellipse-10-C61RwL {
+  background-color: transparent;
+  height: 0px;
+  left: 92.83%;
+  position: absolute;
+  top: 6.57%;
+  width: 0px;
+}
+.recruitermainpage .ellipse-11-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1935px;
+  position: absolute;
+  top: 46px;
+  width: 5px;
+}
+.recruitermainpage .ellipse-3-C61RwL {
+  background-color: transparent;
+  height: 14px;
+  left: 2253px;
+  position: absolute;
+  top: 54px;
+  width: 14px;
+}
+.recruitermainpage .event-13045-CfPDGH {
+  background-color: transparent;
+  height: auto;
+  left: 50px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  width: 254px;
+}
+.recruitermainpage .event-C61RwL {
+  background-color: transparent;
+  height: 44px;
+  left: 52px;
+  position: absolute;
+  top: 687px;
+  width: 304px;
+}
+.recruitermainpage .faq-13090-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 2123px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 49px;
+}
+.recruitermainpage .fileattach-05027615-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 990px;
+  position: absolute;
+  top: 1034px;
+  width: 29px;
+}
+.recruitermainpage .filedownload-2-C61RwL {
+  background-color: transparent;
+  height: 19px;
+  left: 1471px;
+  position: absolute;
+  top: 748px;
+  width: 19px;
+}
+.recruitermainpage .group-6-x5SWxw {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 49px;
+}
+.recruitermainpage .head-of-re--inc-13040-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 312px;
+  width: 358px;
+}
+.recruitermainpage .helenface-C61RwL {
+  background-color: transparent;
+  height: 123px;
+  left: 383px;
+  position: absolute;
+  top: 223px;
+  width: 122px;
+}
+.recruitermainpage .hi-lily-my-anks-13008-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1558px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 303px;
+  width: 531px;
+}
+.recruitermainpage .hi-my-name-ilun-12999-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1106px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 197px;
+  width: 282px;
+}
+.recruitermainpage .icon-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 55px;
+  position: absolute;
+  top: 471px;
+  width: 27px;
+}
+.recruitermainpage .image-1-C61RwL {
+  background-color: transparent;
+  height: 24px;
+  left: 947px;
+  position: absolute;
+  top: 1038px;
+  width: 30px;
+}
+.recruitermainpage .img501721-1-1-C61RwL {
+  background-color: transparent;
+  height: 23px;
+  left: 55px;
+  position: absolute;
+  top: 762px;
+  width: 32px;
+}
+.recruitermainpage .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 51px;
+  position: absolute;
+  top: 538px;
+  width: 34px;
+}
+.recruitermainpage .job-descri-tion-13055-C61RwL {
+  background-color: transparent;
+  color: var(--matisse);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 1332px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 741px;
+  white-space: nowrap;
+  width: 158px;
+}
+.recruitermainpage .jobicon-C61RwL {
+  background-color: var(--matisse-2);
+  height: 46px;
+  left: 43px;
+  position: absolute;
+  top: 533px;
+  width: 47px;
+}
+.recruitermainpage .jobs-13030-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 545px;
+  width: 112px;
+}
+.recruitermainpage .lily-du-13039-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 126px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 267px;
+  width: 207px;
+}
+.recruitermainpage .lily-du-re-ddit-13021-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 22px;
+  height: auto;
+  left: 966px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 43px;
+  width: 407px;
+}
+.recruitermainpage .line-2-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 926px;
+  position: absolute;
+  top: 894px;
+  width: 1395px;
+}
+.recruitermainpage .line-3-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 924px;
+  position: absolute;
+  top: 130px;
+  width: 1397px;
+}
+.recruitermainpage .log-out-13037-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 287px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1202px;
+  width: 254px;
+}
+.recruitermainpage .mask-group-C61RwL {
+  background-color: transparent;
+  height: 99px;
+  left: 2138px;
+  position: absolute;
+  top: 270px;
+  width: 99px;
+}
+.recruitermainpage .nav-C61RwL {
+  background-color: transparent;
+  height: 2341px;
+  left: -26px;
+  position: absolute;
+  top: -7px;
+  width: 397px;
+}
+.recruitermainpage .notification-13068-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1899px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 67px;
+}
+.recruitermainpage .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.recruitermainpage .post-1-C61RwL {
+  background-color: transparent;
+  height: 33px;
+  left: 54px;
+  position: absolute;
+  top: 395px;
+  width: 31px;
+}
+.recruitermainpage .post-13029-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 100px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 398px;
+  width: 112px;
+}
+.recruitermainpage .profile-13028-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 100px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 472px;
+  width: 112px;
+}
+.recruitermainpage .rectangle-12-C61RwL {
+  background-color: transparent;
+  height: 52px;
+  left: 2117px;
+  position: absolute;
+  top: 1009px;
+  width: 140px;
+}
+.recruitermainpage .rectangle-28-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 123px;
+  left: 1084px;
+  position: absolute;
+  top: 147px;
+  width: 421px;
+}
+.recruitermainpage .rectangle-28-VMr6Om {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 212px;
+  left: 1084px;
+  position: absolute;
+  top: 570px;
+  width: 421px;
+}
+.recruitermainpage .rectangle-28-mzXdH9 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 263px;
+  left: 1525px;
+  position: absolute;
+  top: 270px;
+  width: 582px;
+}
+.recruitermainpage .rectangle-29-C61RwL {
+  background-color: rgba(125,125,125,1.0);
+  border-radius: 13.4px;
+  height: 7px;
+  left: 2238px;
+  position: absolute;
+  top: 57px;
+  width: 31px;
+}
+.recruitermainpage .screen-sho--04-at-5-1-C61RwL {
+  background-color: transparent;
+  height: 119px;
+  left: 956px;
+  position: absolute;
+  top: 135px;
+  width: 119px;
+}
+.recruitermainpage .screen-sho--04-at-5-1-VMr6Om {
+  background-color: transparent;
+  height: 208px;
+  left: 90px;
+  position: absolute;
+  top: 41px;
+  width: 208px;
+}
+.recruitermainpage .screen-sho--04-at-5-2-C61RwL {
+  background-color: transparent;
+  height: 119px;
+  left: 956px;
+  position: absolute;
+  top: 559px;
+  width: 119px;
+}
+.recruitermainpage .screen-sho-6-at-331-1-C61RwL {
+  background-color: transparent;
+  height: 973px;
+  left: 380px;
+  position: absolute;
+  top: 197px;
+  width: 539px;
+}
+.recruitermainpage .search-bar-C61RwL {
+  background-color: var(--gallery);
+  border-radius: 10px;
+  box-shadow: 0px 2.32794451713562px 11.639721870422363px rgba(0,0,0,0.1);;
+  height: 56px;
+  left: 395px;
+  position: absolute;
+  top: 131px;
+  width: 503px;
+}
+.recruitermainpage .search-icon-C61RwL {
+  background-color: transparent;
+  height: 31px;
+  left: 846px;
+  position: absolute;
+  top: 145px;
+  width: 30px;
+}
+.recruitermainpage .search-message-12992-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 414px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  width: 252px;
+}
+.recruitermainpage .send-13020-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2117px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1021px;
+  width: 144px;
+}
+.recruitermainpage .sidebar-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px rgba(0,0,0,0.1);;
+  height: 1065px;
+  left: 380px;
+  position: absolute;
+  top: 24px;
+  width: 543px;
+}
+.recruitermainpage .span1-YKrvRk {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.recruitermainpage .span1-xNU9Wd {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.recruitermainpage .span2-YKrvRk {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.30px;
+  line-height: 25px;
+}
+.recruitermainpage .span2-xNU9Wd {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.recruitermainpage .subtract-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1919px;
+  position: absolute;
+  top: 74px;
+  width: 10px;
+}
+.recruitermainpage .summary-13081-njXdbs {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 49px;
+}
+.recruitermainpage .summary-C61RwL {
+  background-color: transparent;
+  height: 60px;
+  left: 2020px;
+  position: absolute;
+  top: 43px;
+  width: 47px;
+}
+.recruitermainpage .summary-We5Zte {
+  background-color: transparent;
+  height: 37px;
+  left: 5px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.recruitermainpage .summary-vVHfqG {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 47px;
+}
+.recruitermainpage .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1492px;
+  position: absolute;
+  top: -762px;
+  width: 573px;
+}
+.recruitermainpage .union-8YHHpE {
+  background-color: transparent;
+  height: 20px;
+  left: 19px;
+  position: absolute;
+  top: 14px;
+  width: 18px;
+}
+.recruitermainpage .union-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1906px;
+  position: absolute;
+  top: 40px;
+  width: 37px;
+}
+.recruitermainpage .union-rcQi9P {
+  background-color: transparent;
+  height: 37px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.recruitermainpage .vector-2P4qUJ {
+  background-color: transparent;
+  height: 0px;
+  left: 92.84%;
+  position: absolute;
+  top: 6.54%;
+  width: 0px;
+}
+.recruitermainpage .vector-7-C61RwL {
+  background-color: transparent;
+  height: 2.92%;
+  left: 91.59%;
+  position: absolute;
+  top: 4.26%;
+  width: 1.62%;
+}
+.recruitermainpage .vector-8-rcQi9P {
+  background-color: transparent;
+  height: 10px;
+  left: 23px;
+  position: absolute;
+  top: 18px;
+  width: 9px;
+}
+.recruitermainpage .vector-C61RwL {
+  background-color: transparent;
+  height: 2.78%;
+  left: 91.60%;
+  position: absolute;
+  top: 4.34%;
+  width: 1.59%;
+}
+.recruitermainpage .vector-QxM5SU {
+  background-color: transparent;
+  height: 1.44%;
+  left: 92.58%;
+  position: absolute;
+  top: 4.84%;
+  width: 0.32%;
+}
+.recruitermainpage .vector-VMr6Om {
+  background-color: transparent;
+  height: 1.25%;
+  left: 91.91%;
+  position: absolute;
+  top: 4.85%;
+  width: 0.32%;
+}
+.recruitermainpage .vector-mzXdH9 {
+  background-color: transparent;
+  height: 1.30%;
+  left: 92.16%;
+  position: absolute;
+  top: 4.82%;
+  width: 0.39%;
+}
+.recruitermainpage .write-a-me-sage-13014-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 947px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 909px;
+  white-space: nowrap;
+  width: 216px;
+}
+.recruitermainpage .yes-kailun-sume-13004-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1106px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 606px;
+  width: 357px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

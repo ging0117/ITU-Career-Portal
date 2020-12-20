@@ -1,0 +1,283 @@
+/* screen - register */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.register {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 2204px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.register .company-in-tute-12588-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 473px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 401px;
+  width: 273px;
+}
+.register .confirm-pa-word-12591-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 457px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 722px;
+  width: 289px;
+}
+.register .email-12587-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 425px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 294px;
+  width: 186px;
+}
+.register .password-12590-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 454px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 615px;
+  width: 186px;
+}
+.register .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.register .rectangle-14-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 178px;
+  width: 618px;
+}
+.register .rectangle-15-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 280px;
+  width: 618px;
+}
+.register .rectangle-16-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 383px;
+  width: 618px;
+}
+.register .rectangle-17-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 489px;
+  width: 618px;
+}
+.register .rectangle-18-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 601px;
+  width: 618px;
+}
+.register .rectangle-19-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 73px;
+  left: 859px;
+  position: absolute;
+  top: 706px;
+  width: 618px;
+}
+.register .register-12600-4VONna {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 132px;
+}
+.register .register-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/button@2x.png);
+  background-size: 100% 100%;
+  height: 73px;
+  left: 1275px;
+  position: absolute;
+  top: 819px;
+  width: 202px;
+}
+.register .register-n-ount-12585-C61RwL {
+  background-color: transparent;
+  color: rgba(0,0,0,0.7);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 450px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 99px;
+  width: 412px;
+}
+.register .title-12589-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 420px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 508px;
+  width: 186px;
+}
+.register .username-12586-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 454px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 187px;
+  width: 186px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2204, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/recruitereventsubmit.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="recruitereventsubmit" />
+    <div class="recruitereventsubmit anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <div class="post-C61RwL"></div>
+      <img class="editicon-C61RwL" src="img/edit-icon-41@2x.jpg" />
+      <div class="rectangle-26-C61RwL"></div>
+      <img class="screen-sho--at-1138-1-C61RwL" src="img/screen-shot-2020-12-02-at-11-38-1@1x.jpg" />
+      <div class="san-jose-c-vent-12428-C61RwL border-class-1">San Jose, CA Job Hiring Event!</div>
+      <div class="dec-8-2020--inc-12429-C61RwL border-class-1">
+        <span class="span1-lBSmQ3">Dec 8, 2020</span><span class="span2-lBSmQ3">&nbsp;&nbsp;</span
+        ><span class="span3-lBSmQ3">10AM - 12PM&nbsp;&nbsp; </span
+        ><span class="span4-lBSmQ3">By Lily Du&nbsp;&nbsp;Head of Recruiting Reddit, Inc</span>
+      </div>
+      <img class="button-C61RwL" src="img/button-3@2x.png" />
+      <div class="join-12431-C61RwL border-class-1">Join</div>
+      <img class="som-C61RwL" src="img/social-media@2x.png" />
+      <div class="keywords-h-area-12433-C61RwL border-class-1">
+        Keywords: <br />Hiring event, career fair, employment, job, jobs, full time, part-time, full-time, part-time,
+        student job, student jobs, specialist, security, security specialist, career, software, IT, San Jose, Cupertino,
+        California, Bay area
+      </div>
+      <div class="as-one-of--oday-12434-C61RwL border-class-1">
+        As one of the largest financial institutions in the world, our client has been around for over 150 years and is
+        continuously innovating in today&#39;s digital age. If you want to work for a company that is not only a
+        household name, but also truly cares about satisfying customers&#39; financial needs and helping people succeed
+        financially, apply today.
+      </div>
+      <img class="nav-C61RwL" src="img/nav-8@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <img class="candidate-1-C61RwL" src="img/candidate-1@2x.png" />
+      <div class="profile-12440-C61RwL roboto-normal-white-23px border-class-1">Profile</div>
+      <a href="recruiterjobpost.html"
+        ><div class="post-12441-C61RwL roboto-normal-white-23px border-class-1">Post</div></a
+      >
+      <div class="jobs-12442-C61RwL roboto-normal-white-23px border-class-1">Jobs</div>
+      <a href="recruitercandidates.html"
+        ><div class="candidate-12443-C61RwL roboto-normal-white-23px border-class-1">Candidate</div></a
+      >
+      <a href="recruitermainpage.html">
+        <div class="contact-C61RwL">
+          <img class="img501721-1-1-ollB6F" src="img/img-501721--1--1@2x.png" />
+          <div class="contact-12446-ollB6F roboto-normal-white-23px border-class-1">Contact</div>
+        </div></a
+      >
+      <div class="jobicon-C61RwL"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <div class="log-out-12449-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <div class="lily-du-12451-C61RwL roboto-bold-white-35px border-class-1">Lily Du</div>
+      <div class="head-of-re--inc-12452-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-NEJbhJ">Head of Recruiting at Reddit, Inc.<br /></span
+        ><span class="span2-NEJbhJ">&nbsp;&nbsp;</span>
+      </div>
+      <img class="screen-sho--04-at-5-1-C61RwL" src="img/screen-shot-2020-11-04-at-5-1@2x.png" />
+      <img class="post-1-C61RwL" src="img/post-1@2x.png" />
+      <img class="icon-1-C61RwL" src="img/icon-1-1@2x.png" />
+      <img class="calendar-1-C61RwL" src="img/calendar-1@2x.png" />
+      <div class="event-12458-C61RwL border-class-1">Event</div>
+      <img class="rectangle-20-C61RwL" src="img/rectangle-20-2@2x.png" />
+      <div class="add-new-event-12461-C61RwL border-class-1">Add New Event</div>
+    </div>
+  </body>
+</html>

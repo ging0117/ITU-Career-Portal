@@ -1,0 +1,717 @@
+/* screen - profile */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.profile {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 2164px;
+  min-width: 2204px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.profile .about-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 121px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1177px;
+}
+.profile .about-5jFAPL {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 121px;
+  left: 0px;
+  position: absolute;
+  top: 160px;
+  width: 1177px;
+}
+.profile .about-ZRbu3t {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 121px;
+  left: 0px;
+  position: absolute;
+  top: 325px;
+  width: 1177px;
+}
+.profile .about-intr-tive-12240-i0QqEA {
+  background-color: transparent;
+  color: transparent;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 23px;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 755px;
+}
+.profile .add-recomm-nals-12270-j7K1iz {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  width: 667px;
+}
+.profile .alex-smith-12229-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 262px;
+  width: 207px;
+}
+.profile .contact-12218-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 763px;
+  width: 254px;
+}
+.profile .editicon-0widvH {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-21Zk4g {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-4rZgTq {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-TcI1Jx {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-i0QqEA {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-j7K1iz {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 13px;
+  width: 44px;
+}
+.profile .editicon-nR8dcO {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 13px;
+  width: 44px;
+}
+.profile .editicon-swbLFL {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 9px;
+  width: 44px;
+}
+.profile .editicon-yQ8EnW {
+  background-color: transparent;
+  height: 38px;
+  left: 1112px;
+  position: absolute;
+  top: 13px;
+  width: 44px;
+}
+.profile .education--ards-12258-0widvH {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 59px;
+  width: 667px;
+}
+.profile .education-12256-0widvH {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 275px;
+}
+.profile .education-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 128px;
+  left: 0px;
+  position: absolute;
+  top: 675px;
+  width: 1177px;
+}
+.profile .enter-your-ject-12263-swbLFL {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 61px;
+  width: 667px;
+}
+.profile .event-12217-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 691px;
+  width: 254px;
+}
+.profile .experience-12252-TcI1Jx {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 275px;
+}
+.profile .experience-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 131px;
+  left: 0px;
+  position: absolute;
+  top: 485px;
+  width: 1177px;
+}
+.profile .home-12213-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.profile .icon-C61RwL {
+  background-color: transparent;
+  height: 435px;
+  left: 34px;
+  position: absolute;
+  top: 385px;
+  width: 45px;
+}
+.profile .intersect-C61RwL {
+  background-color: transparent;
+  height: 173px;
+  left: 96px;
+  position: absolute;
+  top: 63px;
+  width: 173px;
+}
+.profile .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 533px;
+  width: 34px;
+}
+.profile .jobicon-C61RwL {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 528px;
+  width: 47px;
+}
+.profile .jobicon-VMr6Om {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 606px;
+  width: 47px;
+}
+.profile .jobs-12215-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  width: 112px;
+}
+.profile .language-12275-yQ8EnW {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  width: 112px;
+}
+.profile .language-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 270px;
+  left: 0px;
+  position: absolute;
+  top: 1407px;
+  width: 1177px;
+}
+.profile .language-5jFAPL {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 116px;
+  left: 0px;
+  position: absolute;
+  top: 1237px;
+  width: 1177px;
+}
+.profile .log-out-12224-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 274px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2121px;
+  width: 254px;
+}
+.profile .nav-C61RwL {
+  background-color: transparent;
+  height: 2174px;
+  left: -37px;
+  position: absolute;
+  top: -10px;
+  width: 397px;
+}
+.profile .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.profile .people-sim--you-12236-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1715px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 293px;
+  width: 401px;
+}
+.profile .portfolio-12261-swbLFL {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 97px;
+}
+.profile .position-12245-4rZgTq {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 139px;
+}
+.profile .profile-12214-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 467px;
+  width: 112px;
+}
+.profile .profile-fill-out-C61RwL {
+  background-color: transparent;
+  height: 1677px;
+  left: 455px;
+  position: absolute;
+  top: 55px;
+  width: 1177px;
+}
+.profile .project-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 129px;
+  left: 0px;
+  position: absolute;
+  top: 862px;
+  width: 1177px;
+}
+.profile .recommenda-ions-12271-j7K1iz {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  width: 208px;
+}
+.profile .recommende-jobs-12216-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 615px;
+  width: 254px;
+}
+.profile .recruiter--ions-12233-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1715px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 92px;
+  width: 401px;
+}
+.profile .recruiter-C61RwL {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);;
+  height: 132px;
+  left: 1687px;
+  position: absolute;
+  top: 61px;
+  width: 471px;
+}
+.profile .recruiter-VMr6Om {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);;
+  height: 130px;
+  left: 1687px;
+  position: absolute;
+  top: 262px;
+  width: 471px;
+}
+.profile .resume-por-olio-12248-21Zk4g {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 17px;
+  width: 275px;
+}
+.profile .select-you-tion-12277-4jCewv {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 231px;
+  width: 454px;
+}
+.profile .skills-12266-nR8dcO {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  width: 112px;
+}
+.profile .skills-4jCewv {
+  background-color: var(--white);
+  border-radius: 24px;
+  height: 116px;
+  left: 0px;
+  position: absolute;
+  top: 1047px;
+  width: 1177px;
+}
+.profile .software-e-ence-12230-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 307px;
+  width: 358px;
+}
+.profile .span1-4rk3CX {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.profile .span1-b0If8f {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.profile .span2-4rk3CX {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.30px;
+  line-height: 25px;
+}
+.profile .span2-b0If8f {
+  color: rgba(0,0,0,0.5);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.profile .star-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 41px;
+  position: absolute;
+  top: 612px;
+  width: 30px;
+}
+.profile .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -765px;
+  width: 573px;
+}
+.profile .upload-you-edin-12278-4jCewv {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 394px;
+  width: 667px;
+}
+.profile .working-ex-ence-12279-4jCewv {
+  background-color: transparent;
+  color: var(--black-3);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 549px;
+  width: 667px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

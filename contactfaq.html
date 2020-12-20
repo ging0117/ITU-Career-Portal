@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2321, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/contactfaq.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="contactfaq" />
+    <div class="contactfaq anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <img class="nav-C61RwL" src="img/nav-2@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <a href="home.html"><div class="home-13626-C61RwL roboto-normal-white-23px border-class-1">Home</div></a>
+      <a href="profilev1.html"
+        ><div class="profile-13627-C61RwL roboto-normal-white-23px border-class-1">Profile</div></a
+      >
+      <a href="jobboard.html"><div class="jobs-13628-C61RwL roboto-normal-white-23px border-class-1">Jobs</div></a>
+      <a href="recommended-jobs.html"
+        ><div class="recommende-jobs-13629-C61RwL roboto-normal-white-23px border-class-1">Recommended Jobs</div></a
+      >
+      <a href="event.html"><div class="event-13630-C61RwL border-class-1">Event</div></a>
+      <div class="contact-13631-C61RwL border-class-1">Contact</div>
+      <img class="icon-C61RwL" src="img/icon@2x.png" />
+      <div class="jobicon-C61RwL"></div>
+      <div class="jobicon-VMr6Om"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <img class="star-1-C61RwL" src="img/star-1@2x.png" />
+      <img class="intersect-C61RwL" src="img/intersect@2x.png" />
+      <div class="alex-smith-13641-C61RwL roboto-bold-white-35px border-class-1">Alex Smith</div>
+      <div class="software-e-ence-13642-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-fO8rl1">Software Engineer<br /></span
+        ><span class="span2-fO8rl1">ITU 2019 Computer Science</span>
+      </div>
+      <div class="log-out-13643-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <div class="sidebar-C61RwL"></div>
+      <img class="screen-sho--at-1044-1-C61RwL" src="img/screen-shot-2020-12-15-at-10-44-1@1x.jpg" />
+      <div class="contact-13647-C61RwL border-class-4">Contact</div>
+      <div class="search-bar-C61RwL"></div>
+      <img class="search-icon-C61RwL" src="img/search-icon@2x.png" />
+      <div class="search-message-13651-C61RwL border-class-1">Search message</div>
+      <img class="editicon-C61RwL" src="img/edit-icon-9@2x.jpg" />
+      <img class="line-3-C61RwL" src="img/line-3@1x.png" />
+      <div class="rectangle-33-C61RwL"></div>
+      <div class="introduction-13658-C61RwL border-class-1">Introduction</div>
+      <div class="rectangle-34-C61RwL"></div>
+      <div class="resumepdf-13662-C61RwL border-class-1">Resume.pdf</div>
+      <img class="filedownload-1-C61RwL" src="img/file-download-2@2x.png" />
+      <div class="hi-my-name-ched-13664-C61RwL roboto-normal-black-18px border-class-1">
+        Hi, my name is Alex. I am a Junior Software Engineer. I graduated from ITU in 2020 December majoring in Computer
+        Science. My Portfolio link is https://www.ituCareer.com/Alex-2019-005a6b11<br />My resume is attached.
+      </div>
+      <div class="rectangle-33-VMr6Om"></div>
+      <div class="rectangle-34-VMr6Om"></div>
+      <div class="whats-your-week-13669-C61RwL roboto-normal-black-18px border-class-1">
+        What’s your avability for the upcoming week?
+      </div>
+      <div class="rectangle-34-mzXdH9"></div>
+      <div class="i-am-avail--pst-13672-C61RwL roboto-normal-black-18px border-class-1">
+        I am available at Monday to Wednesday after 4pm PST, Thursday and Friday 12pm to 2pm PST.
+      </div>
+      <div class="question-13673-C61RwL border-class-1">Question</div>
+      <div class="answer-13674-C61RwL border-class-1">Answer</div>
+      <div class="rectangle-33-mzXdH9"></div>
+      <div class="rectangle-34-QxM5SU"></div>
+      <div class="whats-your-n-us-13679-C61RwL roboto-normal-black-18px border-class-1">
+        What’s your status in US ? Are you authorized to work in US ?
+      </div>
+      <div class="rectangle-34-2P4qUJ"></div>
+      <div class="currently--work-13682-C61RwL roboto-normal-black-18px border-class-1">
+        Currently I am in F1 visa. I use school CPT to work. I can apply for part time or full time CPT to work.
+      </div>
+      <div class="question-13683-C61RwL border-class-1">Question</div>
+      <div class="answer-13684-C61RwL border-class-1">Answer</div>
+      <div class="my-google--nder-13685-C61RwL border-class-1">My Google Calander</div>
+      <div class="x-add-more-qa-13686-C61RwL border-class-1">+ Add More Q&amp;A</div>
+      <img class="ellipse-4-C61RwL" src="img/ellipse-4@2x.png" />
+      <img class="ellipse-5-C61RwL" src="img/ellipse-5@2x.png" />
+      <img class="ellipse-6-C61RwL" src="img/ellipse-6@2x.png" />
+      <img class="editicon-VMr6Om" src="img/edit-icon-43@2x.jpg" />
+      <img class="ellipse-4-VMr6Om" src="img/ellipse-4@2x.png" />
+      <img class="ellipse-5-VMr6Om" src="img/ellipse-5@2x.png" />
+      <img class="ellipse-6-VMr6Om" src="img/ellipse-6@2x.png" />
+      <img class="editicon-mzXdH9" src="img/edit-icon-43@2x.jpg" />
+      <img class="ellipse-4-mzXdH9" src="img/ellipse-4@2x.png" />
+      <img class="ellipse-5-mzXdH9" src="img/ellipse-5@2x.png" />
+      <img class="ellipse-6-mzXdH9" src="img/ellipse-6@2x.png" />
+      <img class="editicon-QxM5SU" src="img/edit-icon-43@2x.jpg" />
+      <img class="ellipse-4-QxM5SU" src="img/ellipse-4@2x.png" />
+      <img class="ellipse-5-QxM5SU" src="img/ellipse-5@2x.png" />
+      <img class="ellipse-6-QxM5SU" src="img/ellipse-6@2x.png" />
+      <a href="contactautomessaging.html">
+        <div class="auto-reply-C61RwL">
+          <div class="text-HEiWFI">
+            <div class="auto-reply-fAyFQL">
+              <div class="auto-reply-13713-MuRY45 roboto-medium-black-10548787117004395px border-class-2">
+                Auto Reply
+              </div>
+            </div>
+          </div>
+          <div class="on-off-button-HEiWFI">
+            <div class="rectangle-29-ZKo2U4"></div>
+            <img class="ellipse-3-ZKo2U4" src="img/ellipse-3@2x.png" />
+          </div></div
+      ></a>
+      <div class="notification-13719-C61RwL roboto-medium-black-10548787117004395px border-class-2">Notification</div>
+      <img class="union-C61RwL" src="img/union@2x.png" />
+      <img class="subtract-C61RwL" src="img/subtract@2x.png" />
+      <img class="ellipse-11-C61RwL" src="img/ellipse-11@2x.png" />
+      <a href="contactsummary.html">
+        <div class="summary-C61RwL">
+          <div class="summary-vVHfqG">
+            <div class="group-6-x5SWxw"><img class="summary-njXdbs" src="img/summary-1@2x.png" /></div>
+          </div>
+          <div class="summary-We5Zte">
+            <img class="union-rcQi9P" src="img/union-1@2x.png" />
+            <img class="vector-8-rcQi9P" src="img/vector-8@2x.png" />
+            <img class="union-8YHHpE" src="img/union-2@2x.png" />
+          </div></div
+      ></a>
+      <img class="faq-C61RwL" src="img/faq@2x.png" />
+      <img class="vector-C61RwL" src="img/vector-17@2x.png" />
+      <img class="vector-VMr6Om" src="img/vector-18@2x.png" />
+      <img class="vector-mzXdH9" src="img/vector-19@2x.png" />
+      <img class="vector-QxM5SU" src="img/vector-20@2x.png" />
+      <img class="vector-2P4qUJ" src="img/vector-21@2x.png" />
+      <img class="vector-7-C61RwL" src="img/vector-7-3@2x.png" />
+      <img class="ellipse-10-C61RwL" src="img/ellipse-10-3@2x.png" />
+    </div>
+  </body>
+</html>

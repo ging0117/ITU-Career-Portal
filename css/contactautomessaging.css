@@ -1,0 +1,868 @@
+/* screen - contactautomessaging */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.contactautomessaging {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 2321px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.contactautomessaging .alex-smith-13121-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 262px;
+  width: 207px;
+}
+.contactautomessaging .alex-smith-neer-13165-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 22px;
+  height: auto;
+  left: 966px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 43px;
+  width: 407px;
+}
+.contactautomessaging .auto-reply-C61RwL {
+  background-color: transparent;
+  height: 10px;
+  left: 2227px;
+  position: absolute;
+  top: 81px;
+  width: 51px;
+}
+.contactautomessaging .contact-13111-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 763px;
+  width: 254px;
+}
+.contactautomessaging .contact-13127-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  width: 191px;
+}
+.contactautomessaging .dec-3-10-am-13157-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1538px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  top: 94px;
+  white-space: nowrap;
+  width: 201px;
+}
+.contactautomessaging .editicon-C61RwL {
+  background-color: transparent;
+  height: 40px;
+  left: 846px;
+  position: absolute;
+  top: 55px;
+  width: 47px;
+}
+.contactautomessaging .editicon-VMr6Om {
+  background-color: transparent;
+  height: 33px;
+  left: 1461px;
+  position: absolute;
+  top: 153px;
+  width: 35px;
+}
+.contactautomessaging .editicon-mzXdH9 {
+  background-color: transparent;
+  height: 30px;
+  left: 1461px;
+  position: absolute;
+  top: 704px;
+  width: 35px;
+}
+.contactautomessaging .ellipse-10-xxQjfx {
+  background-color: transparent;
+  height: 6.74%;
+  left: 77.61%;
+  position: absolute;
+  top: 80.73%;
+  width: 6.86%;
+}
+.contactautomessaging .ellipse-11-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1935px;
+  position: absolute;
+  top: 36px;
+  width: 5px;
+}
+.contactautomessaging .ellipse-3-C61RwL {
+  background-color: transparent;
+  height: 14px;
+  left: 2238px;
+  position: absolute;
+  top: 44px;
+  width: 14px;
+}
+.contactautomessaging .event-13110-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 691px;
+  width: 254px;
+}
+.contactautomessaging .faq-13202-OUggDp {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 49px;
+}
+.contactautomessaging .faq-C61RwL {
+  background-color: transparent;
+  height: 56px;
+  left: 2121px;
+  position: absolute;
+  top: 37px;
+  width: 47px;
+}
+.contactautomessaging .faq-vgP9vF {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: absolute;
+  top: 42px;
+  width: 49px;
+}
+.contactautomessaging .faq-yUMsM5 {
+  background-color: transparent;
+  height: 30px;
+  left: 5px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.contactautomessaging .fileattach-05027615-1-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 990px;
+  position: absolute;
+  top: 1034px;
+  width: 29px;
+}
+.contactautomessaging .filedownload-1-C61RwL {
+  background-color: transparent;
+  height: 19px;
+  left: 1490px;
+  position: absolute;
+  top: 322px;
+  width: 19px;
+}
+.contactautomessaging .group-6-x5SWxw {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 49px;
+}
+.contactautomessaging .hi-alex-i--view-13153-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1571px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 400px;
+  width: 531px;
+}
+.contactautomessaging .hi-jenna-t--pst-13149-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1107px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 731px;
+  width: 357px;
+}
+.contactautomessaging .hi-my-name-ched-13141-C61RwL {
+  background-color: transparent;
+  color: transparent;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 18px;
+  height: auto;
+  left: 1106px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 186px;
+  width: 421px;
+}
+.contactautomessaging .home-13106-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.contactautomessaging .icon-C61RwL {
+  background-color: transparent;
+  height: 435px;
+  left: 34px;
+  position: absolute;
+  top: 385px;
+  width: 45px;
+}
+.contactautomessaging .image-1-C61RwL {
+  background-color: transparent;
+  height: 24px;
+  left: 947px;
+  position: absolute;
+  top: 1038px;
+  width: 30px;
+}
+.contactautomessaging .intersect-C61RwL {
+  background-color: transparent;
+  height: 173px;
+  left: 96px;
+  position: absolute;
+  top: 63px;
+  width: 173px;
+}
+.contactautomessaging .jenna-C61RwL {
+  background-color: transparent;
+  height: 90px;
+  left: 2151px;
+  position: absolute;
+  top: 370px;
+  width: 99px;
+}
+.contactautomessaging .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 533px;
+  width: 34px;
+}
+.contactautomessaging .jobicon-C61RwL {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 528px;
+  width: 47px;
+}
+.contactautomessaging .jobicon-VMr6Om {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 606px;
+  width: 47px;
+}
+.contactautomessaging .jobs-13108-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  width: 112px;
+}
+.contactautomessaging .line-2-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 926px;
+  position: absolute;
+  top: 894px;
+  width: 1395px;
+}
+.contactautomessaging .line-3-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 924px;
+  position: absolute;
+  top: 130px;
+  width: 1397px;
+}
+.contactautomessaging .log-out-13123-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 254px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1042px;
+  width: 254px;
+}
+.contactautomessaging .nav-C61RwL {
+  background-color: transparent;
+  height: 1674px;
+  left: -37px;
+  position: absolute;
+  top: -10px;
+  width: 397px;
+}
+.contactautomessaging .notification-13180-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1899px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 78px;
+  width: 67px;
+}
+.contactautomessaging .p1icon-C61RwL {
+  background-color: transparent;
+  height: 108px;
+  left: 963px;
+  position: absolute;
+  top: 147px;
+  width: 99px;
+}
+.contactautomessaging .p1icon-VMr6Om {
+  background-color: transparent;
+  height: 99px;
+  left: 963px;
+  position: absolute;
+  top: 698px;
+  width: 99px;
+}
+.contactautomessaging .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.contactautomessaging .profile-13107-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 467px;
+  width: 112px;
+}
+.contactautomessaging .recommende-jobs-13109-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 615px;
+  width: 254px;
+}
+.contactautomessaging .rectangle-12-C61RwL {
+  background-color: transparent;
+  height: 52px;
+  left: 2117px;
+  position: absolute;
+  top: 1009px;
+  width: 140px;
+}
+.contactautomessaging .rectangle-28-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 205px;
+  left: 1084px;
+  position: absolute;
+  top: 147px;
+  width: 441px;
+}
+.contactautomessaging .rectangle-28-VMr6Om {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 178px;
+  left: 1084px;
+  position: absolute;
+  top: 698px;
+  width: 421px;
+}
+.contactautomessaging .rectangle-28-mzXdH9 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);;
+  height: 378px;
+  left: 1538px;
+  position: absolute;
+  top: 370px;
+  width: 582px;
+}
+.contactautomessaging .rectangle-29-C61RwL {
+  background-color: transparent;
+  height: 8px;
+  left: 2238px;
+  position: absolute;
+  top: 47px;
+  width: 32px;
+}
+.contactautomessaging .resumepdf-13168-C61RwL {
+  background-color: transparent;
+  color: var(--matisse);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 1403px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 318px;
+  white-space: nowrap;
+  width: 130px;
+}
+.contactautomessaging .screen-sho--at-1044-1-C61RwL {
+  background-color: transparent;
+  height: 911px;
+  left: 367px;
+  position: absolute;
+  top: 193px;
+  width: 569px;
+}
+.contactautomessaging .search-bar-C61RwL {
+  background-color: var(--gallery);
+  border-radius: 10px;
+  box-shadow: 0px 2.32794451713562px 11.639721870422363px rgba(0,0,0,0.1);;
+  height: 56px;
+  left: 395px;
+  position: absolute;
+  top: 131px;
+  width: 503px;
+}
+.contactautomessaging .search-icon-C61RwL {
+  background-color: transparent;
+  height: 31px;
+  left: 846px;
+  position: absolute;
+  top: 145px;
+  width: 30px;
+}
+.contactautomessaging .search-message-13131-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 414px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  width: 252px;
+}
+.contactautomessaging .send-13164-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2117px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1021px;
+  width: 144px;
+}
+.contactautomessaging .sidebar-C61RwL {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px rgba(0,0,0,0.1);;
+  height: 1065px;
+  left: 380px;
+  position: absolute;
+  top: 24px;
+  width: 543px;
+}
+.contactautomessaging .software-e-ence-13122-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 307px;
+  width: 358px;
+}
+.contactautomessaging .span1-BkTSNb {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.contactautomessaging .span1-H8Dh51 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.contactautomessaging .span1-o2r5lW {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contactautomessaging .span2-BkTSNb {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.contactautomessaging .span2-H8Dh51 {
+  color: rgba(25,94,157,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.contactautomessaging .span2-o2r5lW {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.50px;
+  line-height: 25px;
+}
+.contactautomessaging .span3-H8Dh51 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.contactautomessaging .star-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 41px;
+  position: absolute;
+  top: 612px;
+  width: 30px;
+}
+.contactautomessaging .subtract-C61RwL {
+  background-color: transparent;
+  height: 5px;
+  left: 1919px;
+  position: absolute;
+  top: 64px;
+  width: 10px;
+}
+.contactautomessaging .summary-13193-njXdbs {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 49px;
+}
+.contactautomessaging .summary-C61RwL {
+  background-color: transparent;
+  height: 60px;
+  left: 2020px;
+  position: absolute;
+  top: 33px;
+  width: 47px;
+}
+.contactautomessaging .summary-We5Zte {
+  background-color: transparent;
+  height: 37px;
+  left: 5px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.contactautomessaging .summary-vVHfqG {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 47px;
+}
+.contactautomessaging .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -765px;
+  width: 573px;
+}
+.contactautomessaging .union-8YHHpE {
+  background-color: transparent;
+  height: 20px;
+  left: 19px;
+  position: absolute;
+  top: 14px;
+  width: 18px;
+}
+.contactautomessaging .union-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1906px;
+  position: absolute;
+  top: 30px;
+  width: 37px;
+}
+.contactautomessaging .union-rcQi9P {
+  background-color: transparent;
+  height: 37px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.contactautomessaging .vector-7-xxQjfx {
+  background-color: transparent;
+  height: 106.23%;
+  left: -1.35%;
+  position: absolute;
+  top: -3.36%;
+  width: 102.92%;
+}
+.contactautomessaging .vector-8-rcQi9P {
+  background-color: transparent;
+  height: 10px;
+  left: 23px;
+  position: absolute;
+  top: 18px;
+  width: 9px;
+}
+.contactautomessaging .vector-XvjyWZ {
+  background-color: transparent;
+  height: 52.27%;
+  left: 61.90%;
+  position: absolute;
+  top: 17.82%;
+  width: 20.58%;
+}
+.contactautomessaging .vector-peTTyl {
+  background-color: transparent;
+  height: 45.53%;
+  left: 18.82%;
+  position: absolute;
+  top: 17.96%;
+  width: 20.58%;
+}
+.contactautomessaging .vector-sVjXpg {
+  background-color: transparent;
+  height: 6.74%;
+  left: 78.45%;
+  position: absolute;
+  top: 79.66%;
+  width: 5.49%;
+}
+.contactautomessaging .vector-xxQjfx {
+  background-color: transparent;
+  height: 101.17%;
+  left: -0.77%;
+  position: absolute;
+  top: -0.59%;
+  width: 101.55%;
+}
+.contactautomessaging .vector-yTKOAt {
+  background-color: transparent;
+  height: 47.21%;
+  left: 34.70%;
+  position: absolute;
+  top: 16.91%;
+  width: 24.70%;
+}
+.contactautomessaging .write-a-me-sage-13158-C61RwL {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 947px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 909px;
+  white-space: nowrap;
+  width: 216px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

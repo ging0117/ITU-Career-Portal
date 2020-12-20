@@ -1,0 +1,454 @@
+/* screen - jobboard */
+
+.border-class-1 {
+
+}
+.border-class-2 {
+
+}
+.border-class-3 {
+
+}
+.border-class-4 {
+
+}
+.border-class-5 {
+  border: 1px solid rgba(114,110,110,1.0);
+}
+.border-class-6 {
+  border: 1px solid rgba(126,125,125,1.0);
+}
+.border-class-7 {
+  border: 1px solid rgba(0,0,0,0.34);
+}
+.jobboard {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.jobboard .alex-smith-12775-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 98px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 262px;
+  width: 207px;
+}
+.jobboard .contact-12765-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 763px;
+  width: 254px;
+}
+.jobboard .event-12764-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 691px;
+  width: 254px;
+}
+.jobboard .find-jobs-12783-C61RwL {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 1243px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 92px;
+  width: 192px;
+}
+.jobboard .home-12760-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 391px;
+  width: 112px;
+}
+.jobboard .icon-C61RwL {
+  background-color: transparent;
+  height: 435px;
+  left: 34px;
+  position: absolute;
+  top: 385px;
+  width: 45px;
+}
+.jobboard .intersect-C61RwL {
+  background-color: transparent;
+  height: 173px;
+  left: 96px;
+  position: absolute;
+  top: 63px;
+  width: 173px;
+}
+.jobboard .job-1-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 533px;
+  width: 34px;
+}
+.jobboard .jobicon-C61RwL {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 528px;
+  width: 47px;
+}
+.jobboard .jobicon-VMr6Om {
+  background-color: var(--jelly-bean);
+  height: 46px;
+  left: 32px;
+  position: absolute;
+  top: 606px;
+  width: 47px;
+}
+.jobboard .jobs-12762-C61RwL {
+  background-color: transparent;
+  color: var(--blue-jeans);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  width: 112px;
+}
+.jobboard .line-1-C61RwL {
+  background-color: transparent;
+  height: 4px;
+  left: 559px;
+  position: absolute;
+  top: 1455px;
+  width: 686px;
+}
+.jobboard .log-out-12777-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 254px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1042px;
+  width: 254px;
+}
+.jobboard .nav-C61RwL {
+  background-color: transparent;
+  height: 1674px;
+  left: -37px;
+  position: absolute;
+  top: -10px;
+  width: 397px;
+}
+.jobboard .pattern-1-C61RwL {
+  background-color: transparent;
+  height: 232px;
+  left: 289px;
+  position: absolute;
+  top: 0px;
+  width: 1631px;
+}
+.jobboard .post-C61RwL {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 606px;
+  left: 504px;
+  position: absolute;
+  top: 221px;
+  width: 906px;
+}
+.jobboard .post-VMr6Om {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);;
+  height: 628px;
+  left: 504px;
+  position: absolute;
+  top: 885px;
+  width: 906px;
+}
+.jobboard .profile-12761-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 467px;
+  width: 112px;
+}
+.jobboard .recommende-jobs-12763-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 615px;
+  width: 254px;
+}
+.jobboard .rectangle-10-C61RwL {
+  background-color: var(--white);
+  height: 47px;
+  left: 1051px;
+  position: absolute;
+  top: 254px;
+  width: 175px;
+}
+.jobboard .rectangle-11-C61RwL {
+  background-color: var(--white);
+  height: 133px;
+  left: 1187px;
+  position: absolute;
+  top: 919px;
+  width: 135px;
+}
+.jobboard .rectangle-12-C61RwL {
+  background-color: transparent;
+  height: 70px;
+  left: 1243px;
+  position: absolute;
+  top: 76px;
+  width: 187px;
+}
+.jobboard .rectangle-9-C61RwL {
+  background-color: var(--white);
+  height: 47px;
+  left: 557px;
+  position: absolute;
+  top: 602px;
+  width: 424px;
+}
+.jobboard .screen-sho-2-at-341-1-C61RwL {
+  background-color: transparent;
+  height: 185px;
+  left: 534px;
+  position: absolute;
+  top: 913px;
+  width: 846px;
+}
+.jobboard .screen-sho-2-at-344-1-C61RwL {
+  background-color: transparent;
+  height: 35px;
+  left: 557px;
+  position: absolute;
+  top: 1462px;
+  width: 148px;
+}
+.jobboard .screen-sho-2-at-527-1-C61RwL {
+  background-color: transparent;
+  height: 543px;
+  left: 534px;
+  position: absolute;
+  top: 242px;
+  width: 633px;
+}
+.jobboard .screen-sho-2-at-527-2-C61RwL {
+  background-color: transparent;
+  height: 639px;
+  left: 534px;
+  position: absolute;
+  top: 913px;
+  width: 745px;
+}
+.jobboard .search-bar-C61RwL {
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 4px 4px 13px rgba(0,0,0,0.1);;
+  height: 76px;
+  left: 512px;
+  position: absolute;
+  top: 73px;
+  width: 714px;
+}
+.jobboard .software-e-ence-12776-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 307px;
+  width: 358px;
+}
+.jobboard .software-e-neer-12784-C61RwL {
+  background-color: transparent;
+  color: rgba(0,0,0,0.68);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 525px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 94px;
+  width: 293px;
+}
+.jobboard .span1-pzfJlp {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+.jobboard .span2-pzfJlp {
+  color: rgba(255,255,255,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.50px;
+  line-height: 25px;
+}
+.jobboard .star-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 41px;
+  position: absolute;
+  top: 612px;
+  width: 30px;
+}
+.jobboard .technology-rn-png-3-1-C61RwL {
+  background-color: transparent;
+  height: 236px;
+  left: -1503px;
+  position: absolute;
+  top: -765px;
+  width: 573px;
+}
+.jobboard .vr-images-C61RwL {
+  background-color: transparent;
+  height: 338px;
+  left: 557px;
+  position: absolute;
+  top: 1098px;
+  width: 443px;
+}
+.jobboard .x0-1-C61RwL {
+  background-color: transparent;
+  height: 295px;
+  left: 547px;
+  position: absolute;
+  top: 1112px;
+  width: 443px;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-white-35px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-light-black-15px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-black-10548787117004395px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-23px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-30px {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-17px {
+  color: var(--white);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 17px;
+}
+.roboto-normal-white-23px {
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.6);
+  --black-3: rgba(0,0,0,0.5);
+  --blue-jeans: rgba(99,180,255,1.0);
+  --gallery: rgba(240,238,238,1.0);
+  --jelly-bean: rgba(30,118,170,1.0);
+  --matisse: rgba(25,94,157,1.0);
+  --matisse-2: rgba(29,112,167,1.0);
+  --seashell: rgba(241,241,241,1.0);
+  --white: rgba(255,255,255,1.0);
+}

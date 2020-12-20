@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=2204, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/recruitercandidates.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:900,300,400,400italic,700,500|Montserrat:400,300italic,300");
+
+      @font-face {
+        font-family: "Helvetica-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "Avenir-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c48998dd7b7cc000b095d43/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Roman";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c7529958a44d8000c284ff9/Avenir.ttc") format("None");
+      }
+
+      @font-face {
+        font-family: "Avenir-Heavy";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4b283968bc67000aeeb21e/Avenir-Heavy-05.ttf")
+          format("truetype");
+      }
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima- input:focus {
+        outline: none;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="recruitercandidates" />
+    <div class="recruitercandidates anima-screen">
+      <img class="pattern-1-C61RwL" src="img/pattern-1-2@1x.png" />
+      <img class="nav-C61RwL" src="img/nav-12@1x.png" />
+      <img class="technology-rn-png-3-1-C61RwL" src="img/technology-pattern-png-3-1@1x.png" />
+      <img class="candidate-1-C61RwL" src="img/candidate-1@2x.png" />
+      <div class="profile-12470-C61RwL roboto-normal-white-23px border-class-1">Profile</div>
+      <a href="recruiterjobpost.html"
+        ><div class="post-12471-C61RwL roboto-normal-white-23px border-class-1">Post</div></a
+      >
+      <div class="jobs-12472-C61RwL roboto-normal-white-23px border-class-1">Jobs</div>
+      <div class="candidate-12473-C61RwL border-class-1">Candidate</div>
+      <a href="recruitermainpage.html">
+        <div class="contact-C61RwL">
+          <img class="img501721-1-1-ollB6F" src="img/img-501721--1--1@2x.png" />
+          <div class="contact-12476-ollB6F roboto-normal-white-23px border-class-1">Contact</div>
+        </div></a
+      >
+      <div class="jobicon-C61RwL"></div>
+      <img class="job-1-C61RwL" src="img/job-1@2x.png" />
+      <div class="log-out-12479-C61RwL roboto-bold-white-18px border-class-1">Log Out</div>
+      <div class="lily-du-12481-C61RwL roboto-bold-white-35px border-class-1">Lily Du</div>
+      <div class="head-of-re--inc-12482-C61RwL roboto-normal-white-17px border-class-1">
+        <span class="span1-bDgJZv">Head of Recruiting at Reddit, Inc.<br /></span
+        ><span class="span2-bDgJZv">&nbsp;&nbsp;</span>
+      </div>
+      <img class="screen-sho--04-at-5-1-C61RwL" src="img/screen-shot-2020-11-04-at-5-1@2x.png" />
+      <img class="post-1-C61RwL" src="img/post-1@2x.png" />
+      <img class="icon-1-C61RwL" src="img/icon-1-1@2x.png" />
+      <div class="rectangle-21-C61RwL"></div>
+      <div class="position-12488-C61RwL roboto-normal-black-30px border-class-1">Position</div>
+      <div class="job-title--ords-12489-C61RwL border-class-1">Job title, keywords</div>
+      <div class="rectangle-21-VMr6Om"></div>
+      <div class="location-12492-C61RwL roboto-normal-black-30px border-class-1">Location</div>
+      <div class="city-state-code-12493-C61RwL border-class-1">City, state, zip code</div>
+      <div class="rectangle-21-mzXdH9"></div>
+      <div class="date-posted-12496-C61RwL border-class-1">Date Posted</div>
+      <img class="polygon-1-C61RwL" src="img/polygon-1@2x.png" />
+      <div class="rectangle-21-QxM5SU"></div>
+      <div class="salary-est-mate-12500-C61RwL border-class-1">Salary Estimate</div>
+      <img class="polygon-2-C61RwL" src="img/polygon-1@2x.png" />
+      <div class="rectangle-21-2P4qUJ"></div>
+      <div class="job-type-12504-C61RwL border-class-1">Job Type</div>
+      <img class="polygon-2-VMr6Om" src="img/polygon-1@2x.png" />
+      <div class="rectangle-21-qr8e7q"></div>
+      <div class="experience-12508-C61RwL border-class-1">Experience</div>
+      <img class="polygon-2-mzXdH9" src="img/polygon-1@2x.png" />
+      <div class="rectangle-21-J1YQmd"></div>
+      <div class="programmin-orks-12512-C61RwL border-class-1">Programming Languages &amp; Frameworks</div>
+      <img class="polygon-2-QxM5SU" src="img/polygon-1@2x.png" />
+      <div class="rectangle-21-a5WPlX"></div>
+      <div class="softwate-p-rams-12516-C61RwL border-class-1">Softwate Programs</div>
+      <img class="polygon-2-2P4qUJ" src="img/polygon-1@2x.png" />
+      <img class="rectangle-20-C61RwL" src="img/rectangle-20-1@2x.png" />
+      <div class="find-candidate-12520-C61RwL border-class-1">Find Candidate</div>
+      <div class="about-4-re-ults-12521-C61RwL border-class-1">About 4 results</div>
+      <div class="profile-detail-12522-C61RwL border-class-1">Profile Detail</div>
+      <div class="rectangle-22-C61RwL"></div>
+      <img class="screen-sho-4-at-742-1-C61RwL" src="img/screen-shot-2020-11-04-at-7-42-1@1x.jpg" />
+      <img class="screen-sho-4-at-740-1-C61RwL" src="img/screen-shot-2020-11-04-at-7-40-1@1x.jpg" />
+      <img class="rectangle-23-C61RwL" src="img/rectangle-23@2x.png" />
+      <div class="contact-12529-C61RwL border-class-1">Contact</div>
+      <a href="recruitereventform.html">
+        <div class="event-C61RwL">
+          <img class="calendar-1-CfPDGH" src="img/calendar-1@2x.png" />
+          <div class="event-12532-CfPDGH roboto-normal-white-23px border-class-1">Event</div>
+        </div></a
+      >
+    </div>
+  </body>
+</html>
